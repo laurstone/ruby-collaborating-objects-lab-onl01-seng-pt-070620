@@ -18,7 +18,7 @@ class Song
     new_song = self.new(song_pieces[1])
     new_song.artist_name = song_pieces[0]
     new_song.artist.add_song(new_song)
-    bindingpry
+    binding.pry
     new_song
   end
   
