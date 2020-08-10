@@ -12,7 +12,7 @@ class Song
     @@all << self 
 
   end
-# binding.pry 
+ binding.pry 
   def self.new_by_filename(filename)
     @@all = filename.split(" - ")
     new_songs = self.new(songs)
