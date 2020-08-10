@@ -19,7 +19,7 @@ class Song
     new_song.artist_name = song_pieces[0]
     #binding.pry
     new_song.artist.add_song(new_song)
-    new_song
+    #new_song
   end
   
   
